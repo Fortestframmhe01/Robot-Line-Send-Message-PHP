@@ -1,8 +1,9 @@
 # Robot-Line-Send-Message-PHP
-Robot Line API - Send Message To User
+# # Robot Line API - Send Message To User
 
-สามารถใช้งานได้โดยการ 
+# Usage :
 
+```
 <?php 
   use LineNotify\LineNotify;
   
@@ -14,3 +15,4 @@ Robot Line API - Send Message To User
   
   $send = $line->lineSend(); // Return true, false (1, 0)
 ?>
+```
